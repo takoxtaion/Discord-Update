@@ -1,4 +1,4 @@
-# 🚀 Discord Update Script
+# 🚀 Update in One Command: Discord Update Script
 
 This project automates the process of installing the latest `.deb` package from the Downloads folder, simplifying updates for applications like Discord on Linux. 🐧
 
