@@ -14,7 +14,7 @@ def get_latest_file_in_downloads():
     latest_file = max(files, key=os.path.getmtime)
     
     print(f"Latest file found: {latest_file}")
-    e
+    
     command = f"sudo dpkg -i '{latest_file}'"
     print(f"Executing command: {command}")
     return os.system(command)
